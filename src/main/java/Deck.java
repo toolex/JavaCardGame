@@ -30,8 +30,9 @@ public class Deck {
         Collections.shuffle(this.cards);
     }
 
-    public void dealACard() {
+    public Card dealACard() {
         Card topCard = this.cards.get(0);
         cards.remove(topCard);
+        return topCard;
     }
 }
