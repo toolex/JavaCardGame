@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6810a9b9-1b1c-4a62-8d32-c2b4d2fad8f3" name="Default Changelist" comment="" />
+    <list default="true" id="6810a9b9-1b1c-4a62-8d32-c2b4d2fad8f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Deck.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +32,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1TvIhYj29G3Pjmx7g1D1TXpZ8pB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -36,11 +48,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeckTest.deckHas52Cards">
+  <component name="RunManager" selected="JUnit.All in CardEnums">
     <configuration name="All in CardEnums" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardEnums" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeckTest.checkDeckCanBeShuffled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardEnums" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeckTest" />
+      <option name="METHOD_NAME" value="checkDeckCanBeShuffled" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -57,8 +79,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeckTest.deckHas52Cards" />
         <item itemvalue="JUnit.All in CardEnums" />
+        <item itemvalue="JUnit.DeckTest.checkDeckCanBeShuffled" />
+        <item itemvalue="JUnit.DeckTest.deckHas52Cards" />
       </list>
     </recent_temporary>
   </component>
@@ -74,5 +97,16 @@
       <updated>1574334261534</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

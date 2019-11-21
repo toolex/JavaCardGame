@@ -23,6 +23,9 @@ public class DeckTest {
 
     @Test
     public void checkDeckCanBeShuffled(){
-        assertNotEquals(deck.getCards().get(0), deck.shuffleDeck().get(0));
+
+        deck.shuffleDeck();
+        deck.getCards().get(0).getRank()
+       assertNotEquals();
     }
 }
