@@ -21,11 +21,17 @@ public class DeckTest {
         assertEquals(52, deck.getCards().size());
     }
 
-    @Test
-    public void checkDeckCanBeShuffled(){
+//    @Test
+//    public void checkDeckCanBeShuffled(){
+//        String cardValue = deck.getCards().get(0).getRank();
+//        deck.shuffleDeck();
+//        deck.getCards().get(0).getRank();
+//       assertNotEquals();
+//    }
 
-        deck.shuffleDeck();
-        deck.getCards().get(0).getRank()
-       assertNotEquals();
+    @Test
+    public void deckDealsACard(){
+        deck.dealACard();
+        assertEquals(51, deck.getCards().size());
     }
 }

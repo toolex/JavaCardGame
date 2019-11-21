@@ -9,6 +9,7 @@ public class Deck {
     public Deck(){
         this.cards = new ArrayList<Card>();
         buildDeck();
+        shuffleDeck();
 
     }
     public ArrayList<Card> getCards(){
@@ -27,5 +28,10 @@ public class Deck {
 
     public void shuffleDeck() {
         Collections.shuffle(this.cards);
+    }
+
+    public void dealACard() {
+        Card topCard = this.cards.get(0);
+        cards.remove(topCard);
     }
 }
